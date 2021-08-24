@@ -1,5 +1,5 @@
 # dnslookup
-PowerShell script to automate Nameserver lookup for huge list of websites to check if a valid DNS entry exists or not and IP addresses if the DNS entry exists.
+PowerShell script to automate Nameserver lookup for huge list of websites. Helps to check if a valid DNS entry exists or not and IP addresses if the DNS entry exists.
 ###############################################################################################################################################################
 Step-1: Create a common text file and save it to a filepath. Copy & Paste the filepath along with filename into '$inputpath' parameter.
 Step-2: Include all the URLs (without http(s) scheme) into that text file and 'Save'. Ensure no blank spaces in the txt file.
