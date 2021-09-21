@@ -1,4 +1,4 @@
-﻿$inputpath = "C:\Powershell-Automation\URLs.txt" <#Input text file path here#>
+﻿$inputpath = "C:\Powershell-Automation\URLs.txt" <#Input .txt file path here#>
 $outputpath = "C:\Powershell-Automation\dnslookup_output.csv" <#Output .csv file path here#>
 $NameList = Get-Content -Path $inputpath
 $ServerList = @('8.8.8.8','8.8.4.4')
